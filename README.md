@@ -13,7 +13,7 @@ to output the model predictions, annotate and save them in the disk.
 Utility script contains functions to draw boundary box rectangles and labels on images, given that there is a detection event.
 
 ## Terminal Commands
-python yolo.py -w=yolov3-tiny.weights cfg=cfg/yolov3-tiny.cfg -v="Video File" -l-data/coco.names
+### python yolo.py -w=yolov3-tiny.weights cfg=cfg/yolov3-tiny.cfg -v="Video File" -l-data/coco.names
 
 We will need the weights and the cfg folder of the YOLO system, installed .
 
